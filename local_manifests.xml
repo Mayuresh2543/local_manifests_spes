@@ -1,0 +1,40 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Remotes -->
+   <remote name="mayuresh"
+           fetch="https://github.com/Mayuresh2543"
+           clone-depth="1" />
+   <remote name="kami"
+           fetch="https://github.com/kamikaonashi"
+           clone-depth="1" />
+   <remote name="cr"
+           fetch="https://github.com/crdroidandroid"
+           clone-depth="1" />
+   <remote name="linag"
+           fetch="https://github.com/LineageOS"
+           clone-depth="1" />
+   <remote name="cumos"
+           fetch="https://github.com/cumOS"
+	   clone-depth="1" />
+   <remote name="murali"
+           fetch="https://github.com/muralivijay"
+	   clone-depth="1" />
+
+ 
+ <!-- Tree -->
+ <project path="device/xiaomi/spes" name="device_xiaomi_spes_new" remote="mayuresh" revision="13.0" />
+
+ <!-- Kernel -->
+ <project path="kernel/xiaomi/sm6225" name="kernel_xiaomi_sm6225" remote="murali" revision="main" />
+
+ <!-- Vendor -->
+ <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="murali" revision="13.0" />
+ 
+ <!-- Common Xiaomi Hardware Tree -->
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linag" revision="lineage-20" />
+ 
+ <!-- Kanged from Vedraj🫠 -->
+	
+</manifest>
