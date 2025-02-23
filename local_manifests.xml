@@ -23,7 +23,7 @@
 
  
  <!-- Tree -->
- <project path="device/xiaomi/spes" name="device_xiaomi_spes_new" remote="mayuresh" revision="13.0" />
+ <project path="device/xiaomi/spes" name="device_xiaomi_spes_test" remote="mayuresh" revision="13.0" />
 
  <!-- Kernel -->
  <project path="kernel/xiaomi/sm6225" name="kernel_xiaomi_sm6225" remote="murali" revision="main" />
