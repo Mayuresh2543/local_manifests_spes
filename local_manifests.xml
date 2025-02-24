@@ -32,7 +32,7 @@
  <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="murali" revision="13.0" />
  
  <!-- Common Xiaomi Hardware Tree -->
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linag" revision="lineage-20" />
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="cr" revision="13.0" />
  
  <!-- Kanged from Vedraj🫠 -->
 	
