@@ -23,6 +23,9 @@
    <remote name="chk-bcr"
            fetch="https://github.com/Chaitanyakm"
 	   clone-depth="1" />
+   <remote name="TYM"
+           fetch="https://gitlab.com/ThankYouMario"
+	   clone-depth="1" />
 
  
  <!-- Tree -->
@@ -39,6 +42,9 @@
 
  <!-- BCR -->
  <project path="vendor/bcr" name="vendor_bcr" remote="chk-bcr" revision="main" />
+
+ <!-- MEMECAm -->
+ <project path="vendor/xiaomi/camera" name="proprietary_vendor_xiaomi_camera" remote="TYM" revision="uvite-sm6225" />
  
  <!-- Kanged from Vedraj🫠 -->
 	
